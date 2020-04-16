@@ -1,7 +1,7 @@
 apiVersion: tekton.dev/v1beta1
 kind: PipelineRun
 metadata:
-  name: 'pipeline-run-15870318784' # {"type":"string","x-kustomize":{"partialSetters":[{"name":"pipeline-run","value":"cd-run"}]}}
+  name: 'cd-run' # {"type":"string","x-kustomize":{"partialSetters":[{"name":"pipeline-run","value":"cd-run"}]}}
   namespace: 'cicd' # {"type":"string","x-kustomize":{"setter":{"name":"namespace","value":"cicd"}}}
 spec:
   pipelineRef:
