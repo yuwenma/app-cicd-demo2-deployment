@@ -11,4 +11,3 @@ spec:
   - name: global_access_ws
     secret:
       secretName: global-appctlconfig # {"type":"string","x-kustomize":{"setter":{"name":"global-appctl-secret","value":"global-appctlconfig"}}}
-  serviceAccountName: "continuous-delivery" # {"type":"string","x-kustomize":{"setter":{"name":"sa-name","value":"continuous-delivery"}}}
