@@ -1,0 +1,4 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: "cicd" # {"type":"string","x-kustomize":{"setter":{"name":"namespace","value":"cicd"}}}
