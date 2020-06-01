@@ -35,7 +35,7 @@ spec:
       - env:
         - name: GET_HOSTS_FROM
           value: dns
-        image: '[IMG_2]'
+        image: gcr.io/yuwen-cicd-demo2/ci-frontend1
         name: php-redis
         ports:
         - containerPort: 80
@@ -131,7 +131,7 @@ spec:
       - env:
         - name: GET_HOSTS_FROM
           value: dns
-        image: '[IMG_1]'
+        image: gcr.io/yuwen-cicd-demo2/ci-redisslave1
         name: slave
         ports:
         - containerPort: 6379
@@ -139,3 +139,13 @@ spec:
           requests:
             cpu: 100m
             memory: 100Mi
+---
+apiVersion: app.k8s.io/v1beta1
+kind: Application
+metadata:
+   name: app-cicd-demo2
+   namespace: app-cicd-demo2-stg
+   labels:
+      app.kubernetes.io/name: app-cicd-demo2
+   annotations:
+      app.kubernetes.io/managed-by: appctl
