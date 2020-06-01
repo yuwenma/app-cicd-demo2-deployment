@@ -114,7 +114,7 @@ metadata:
   name: redis-slave
   namespace: app-cicd-demo2-stg
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: redis
