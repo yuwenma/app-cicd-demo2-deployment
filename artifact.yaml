@@ -68,7 +68,7 @@ metadata:
   name: redis-master
   namespace: app-cicd-demo2-prod
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: redis
