@@ -139,13 +139,3 @@ spec:
           requests:
             cpu: 100m
             memory: 100Mi
----
-apiVersion: app.k8s.io/v1beta1
-kind: Application
-metadata:
-   name: app-cicd-demo2
-   namespace: app-cicd-demo2-stg
-   labels:
-      app.kubernetes.io/name: app-cicd-demo2
-   annotations:
-      app.kubernetes.io/managed-by: appctl
