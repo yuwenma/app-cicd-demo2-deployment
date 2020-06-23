@@ -11,7 +11,7 @@ envs:
   compute:
     zone: us-central1-f
   creation_time: "2020-06-23T02:42:42Z"
-  last_update_time: "2020-06-23T02:44:10Z"
+  last_update_time: "2020-06-23T02:45:38Z"
   name: prod
   namespace: app-cicd-demo2-prod
   project: yuwen-cicd-demo2
