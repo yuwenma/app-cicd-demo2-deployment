@@ -3,7 +3,7 @@ envs:
   compute:
     zone: us-central1-f
   creation_time: "2020-04-17T15:36:49Z"
-  last_update_time: "2020-07-14T00:01:38Z"
+  last_update_time: "2020-07-14T00:05:15Z"
   name: stg
   namespace: app-cicd-demo2-stg
   project: yuwen-cicd-demo2
