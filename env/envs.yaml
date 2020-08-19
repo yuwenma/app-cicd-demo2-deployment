@@ -1,0 +1,17 @@
+apiVersion: configmanagement.gke.io/v1alpha1
+kind: Environment
+metadata:
+  creationTimestamp: null
+  name: app-cicd-demo2
+  namespace: app-cicd-demo2-environment
+spec:
+  appName: app-cicd-demo2
+  envs:
+  - cluster_name: demo-stg
+    compute:
+      zone: us-central1-f
+    creation_time: "2020-08-19T00:13:46Z"
+    last_update_time: "2020-08-19T00:13:46Z"
+    name: stg
+    namespace: app-cicd-demo2-stg
+    project: yuwen-cicd-demo2
