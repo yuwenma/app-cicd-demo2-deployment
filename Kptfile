@@ -1,0 +1,17 @@
+
+# This file contains the necessary information
+# to display an application on Google Cloud console.
+# Please don't modify or remove it.
+apiVersion: kpt.dev/v1alpha1
+kind: Kptfile
+metadata:
+  name: app-cicd-demo2
+inventory:
+  identifier: app-cicd-demo2
+  namespace: 
+  annotations:
+    app.kubernetes.io/managed-by: appctl
+    appctl.gke.io/config-commit-link: https://github.com/yuwenma/app-cicd-demo2/commit/73660b66feb4b85886e139736b755919a65740e7
+    appctl.gke.io/config-repo: https://github.com/yuwenma/app-cicd-demo2
+    appctl.gke.io/deployment-all-tags: https://github.com/yuwenma/app-cicd-demo2-deployment/tags
+    appctl.gke.io/deployment-repo: https://github.com/yuwenma/app-cicd-demo2-deployment
